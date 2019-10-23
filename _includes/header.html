@@ -1,0 +1,30 @@
+<header id="header" class="{{layout.header_class}}">
+  <div class="container-fluid">
+
+    <div id="logo" class="pull-left">
+      <h1><a href="{{site.url}}" class="scrollto">PUAP 50+</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a> -->
+    </div>
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        {% if page.layout == "default_main" %}
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">Projekt</a></li>
+          <li><a href="#services">Korzyści</a></li>
+          <li><a href="#portfolio">Pobieranie</a></li>
+          <li class="menu-has-children"><a href="/more">Więcej</a>
+            <ul>
+              {% include subpage_links.html %}
+            </ul>
+          </li>
+        {% else %}
+          <li><a href="{{site.url}}">Główna</a></li>
+          {% include subpage_links.html %}
+        {% endif %}
+
+      </ul>
+    </nav><!-- #nav-menu-container -->
+  </div>
+</header><!-- #header -->
