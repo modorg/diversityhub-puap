@@ -14,7 +14,7 @@
           <li><a href="#about">Projekt</a></li>
           <li><a href="#services">Korzyści</a></li>
           <li><a href="#portfolio">Pobieranie</a></li>
-          <li class="menu-has-children"><a href="/more">Więcej</a>
+          <li class="menu-has-children"><a href="{{ "/more" | prepend: relative_url }}">Więcej</a>
             <ul>
               {% include subpage_links.html %}
             </ul>
