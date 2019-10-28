@@ -11,13 +11,26 @@
   }
 }
 
-#intro .intro-container .img-fluid {
-  // height: 30%;
-}
+// #intro .intro-container .img-fluid {
+//   height: 30%;
+// }
 
 .owl-carousel {
   img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .owl-stage {
     height: 100px;
+    width: 100px;
+    position: relative;
   }
 }
 
@@ -100,5 +113,11 @@
 
   img {
     width: 100%;
+  }
+}
+
+footer {
+  .logo-image {
+    width: 90%;
   }
 }
