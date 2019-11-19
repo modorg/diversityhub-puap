@@ -1,0 +1,100 @@
+index:
+  about:
+    search: Przeprowadzisz diagnozę organizacji w obszarze zarządzania międzypokoleniowego – poznasz słabe i mocne strony swojej organizacji oraz kluczowe wyzwania.
+    buoy: Uzyskasz wsparcie narzędziowe dla osób pracujących w zespołach międzypokoleniowych oraz dla swoich doświadczonych pracowników.
+    umbrella: Przygotujesz firmę do wyzwań demograficznych dzięki wprowadzeniu elementów świadomego zarządzania międzypokoleniowego.
+
+  program_main:
+    content:
+      - "Zatrudniasz doświadczonych pracowników? Masz problem z utrzymaniem i zarządzaniem
+        wiedzy w swojej firmie? Twoi pracownicy w różnym wieku mają trudności z
+        komunikowaniem się w organizacji?"
+      - "Firmy sektora MŚP nie są gotowe na nadchodzące zmiany na rynku pracy wynikające z
+        demografii i zmiany pokoleniowej. Jednocześnie międzypokoleniowe zespoły wymagają
+        zmian w podejściu do pracowników na różnym etapie zawodowym, mogą też generować
+        wiele wyzwań dla małych i średnich firm."
+      - "Jeżeli jesteś firmą sektora MŚP, która ma przed sobą ambitne cele biznesowe, plany
+        rozwojowe i zatrudniasz zróżnicowane wiekowo zespoły pracowników, zapraszamy do
+        skorzystania z narzędzi Programu PUAP 50+. Dzięki Programowi, rozwiązania dostępne i
+        wykorzystywane przez duże międzynarodowe korporacje są w zasięgu firm z sektora MŚP."
+    bold_question: Co wyróżnia nasz Program i sprawia, że odpowiada on bezpośrednio na specyficzne potrzeby firm z sektora MŚP?
+
+  about_cols:
+    left:
+      title: SIŁA WSPÓŁPRACY
+      bold: Połączyliśmy wiedzę i możliwości 3 doświadczonych partnerów o mocnej pozycji na rynku.
+      normal: "W skład zespołu weszli eksperci i ekspertki specjalizujący się w rozwoju organizacji, zarządzaniu ludźmi i
+              zespołach międzygeneracyjnych, którzy współpracowali ze sobą na wszystkich etapach projektu.
+              Nasze prace wzbogacił udział partnera z Czech."
+    middle:
+      title: DESIGN THINKING
+      bold: Zastosowaliśmy nowatorskie podejście do tworzenia rezultatów. Wybraliśmy metodę Design Thinking,
+      normal: "dzięki której opracowaliśmy prototypy naszych rozwiązań. Opracowaliśmy typowe persony
+              naszych głównych odbiorców: pracodawcy, dyrektora HR i pracownika 50+. Dzięki temu mogliśmy
+              uwzględnić ich potrzeby i oczekiwania."
+    right:
+      title: TESTOWANIE
+      bold: "Wszystkie elementy Programu zostały przetestowane przez 12 firm: mikro, małych i średnich."
+      normal: "Przez ponad rok nasi Klienci we współpracy z ekspertkami i projektu przeprowadzili diagnozę swoich firm i
+              realizowali własne projekty wdrożeniowe z obszaru zarządzania pokoleniami testując wszystkie narzędzia Programu."
+
+  call_to_action:
+    title: Szczegóły programu
+    content: "Więcej o samym projekcie PUAP oraz etapach jego realizacji dowiesz się tutaj:"
+    action: KLIKNIJ
+
+  portfolio:
+    title: "Skorzystaj z narzędzi PUAP:"
+
+  services:
+    content:
+      - {text: "Przygotujesz swoją firmę do wyzwań demograficznych i wprowadzisz elementy świadomego zarządzania międzypokoleniowego;", icon: fa-users}
+      - {text: "Przeprowadzisz bezpłatną diagnozę online twojej firmy, z której dowiesz się, jakie problemy występują i które z nich mają największy 
+      wpływ na twoją organizację;", icon: fa-search}
+      - {text: "Masz dostęp do narzędzi edukacyjnych w postaci programów szkoleń dla zespołów oraz filmów edukacyjnych 
+      dla wszystkich pracowników;", icon: fa-briefcase}
+      - {text: "Uzyskujesz wsparcie narzędziowe dla mentorów lub osób pracujących z zespołami międzypokoleniowymi, pozwalające lepiej
+      zarządzać wiekiem w organizacji;", icon: fa-book}
+      - {text: "Pomagasz swoim doświadczonym pracownikom odkryć ich potencjał zawodowy i skuteczniej
+        kierować swoją karierą zawodową.", icon: fa-expand}
+
+team:
+  - { name: Ewa Brach - Pogoda }
+  - { name: Dr Tomasz Dąbrowski, img: tomasz-dabrowski.jpg, content: "Ekspert Diversity & Inclusion, realizujący wdrożenia dla największych firm w Polsce. 
+  Wprowadził przedmiot „Zarządzanie różnorodnością” do programu studiów na Uniwersytecie Jagiellońskim. <br> Współtwórca metodyk badawczych 
+  (ESA – satysfakcja pracowników, AOC – kultura organizacyjna, Diversity Audit). Ekspert w międzynarodowych projektach badawczych oraz projektach rozwoju innowacji 
+  w obszarze zarządzania ludźmi." }
+  - { name: Maciej Głogowski, img: maciej_glogowski.jpg, content: "Maciej Głogowski – certyfikowany trener (Certified International Professional Trainer), 
+  konsultant i badacz. Wieloletni manager projektów badawczych. Absolwent Wydziału Prawa i Administracji UJ oraz Wydziału Zarządzania i Komunikacji  Społecznej UJ, 
+  doktorant i pracownik niestacjonarny Wydziału Zarządzania i Komunikacji Społecznej UJ w dziedzinie nauk humanistycznych, dyscyplina: nauki o zarządzaniu." }
+  - { name: Katarzyna Ociepka - Miąsik, img: katarzyna-ociepka-miasik.jpg, content: "Kulturoznawca, socjolog, facylitatorka, moderatorka design thinking, 
+  badaczka innowacji społecznych. Autorka rozwiązań i publikacji zakresu zarządzania wiedzą, wiekiem, strategii rozwoju, współpracy międzypokoleniowej 
+  w wielu projektach biznesowych i międzynarodowych." }
+  - { name: Joanna Pająk, img: ania-pajak.jpg, content: "Psycholożka, absolwentka Wydziału Filozoficznego Uniwersytetu Jagiellońskiego. W Wyższej Szkole Europejskiej
+  im. ks. J. Tischnera prowadzi zajęcia z zakresu psychologii organizacji, komunikacji, twórczości oraz zachowań konsumenckich. Od kilkunastu lat w praktyce zajmuje się
+  reklamą, marketingiem oraz PR zarówno w agencjach, jak i bezpośrednio pracując z klientami z różnych branż, przedsiębiorstw, startupów i organizacji -
+  obecnie szczególnie w obszarze kultury, innowacji, nowych technologii oraz różnorodności."}
+  - { name: Prof. Izabela Stańczyk, img: izabela_stanczyk.png, content: "Doktor habilitowany nauk ekonomicznych w dyscyplinie nauk o zarządzaniu, 
+  profesor nadzwyczajny w Instytucie Ekonomii, Finansów i Zarządzania na Uniwersytecie Jagiellońskim. Posiada bogate, kilkunastoletnie doświadczenie 
+  zawodowe w HR w grupie kapitałowej. Obszary zainteresowań naukowych autorki koncentrują się na zagadnieniach związanych z zarządzaniem zasobami ludzkimi, 
+  ze szczególnym uwzględnieniem postrzegania wsparcia organizacyjnego, kształtowania zatrudnienia, restrukturyzacji zatrudnienia, zarządzania kompetencjami, 
+  doradztwa personalnego. Jest autorką kilkudziesięciu prac zawierających monografie i artykuły z tej dziedziny opublikowanych w Polsce i na świecie." }
+  - { name: Dr Roksana Ulatowska, img: roksana-ulatowska.jpeg, content: "dr Roksana Ulatowska - absolwentka psychologii UJ oraz podyplomowego studium Metody Badań 
+  Społecznych w Przedsiębiorstwach, stopień doktora uzyskała na Wydziale Zarządzania i Komunikacji Społecznej UJ. Członkini zarządu Fundacji Rozwoju Badań Społecznych. 
+  Na co dzień pracuje w Wyższej Szkole Europejskiej im. ks. Józefa Tischnera w Krakowie, gdzie obecnie jako dziekan zarządza Kolegium Nauk Społecznych i Humanistycznych." }
+  - { name: Dr Anna Zaroda Dąbrowska, img: anna-zaroda-dabrowska.jpg, content: "Doświadczony, kreatywny menedżer, finalistka konkursu Businesswoman Roku 2013 (Sukces Pisany Szminką). 
+  Specjalizuje się w tematyce Diversity & Inclusio. <br> Autorka i ekspertka międzynarodowego projektu Tuned up! Tools Under the Need of Enhancing Diversity. 
+  Ekspertka w projektach innowacyjnych dotyczących zarządzania międzygeneracyjnego oraz leadershipu kobiet (Delphi, 2017). Prowadzi sesje D&I dla menedżerów 
+  (m. in dla BBH, State Street, Orlen, VW, PGE)."}
+
+footer:
+  useful_links:
+    title: Przydatne linki
+  contact:
+    title: Dane kontaktowe
+    address:
+      - Orane Hill Sp. z o.o.
+      - Poznańska 6/4
+      - 30-012 Kraków
+    phone: (12) 353 05 59
+    email: biuro@orangehill.pl

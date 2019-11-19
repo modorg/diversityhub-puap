@@ -15,7 +15,7 @@
 //   height: 30%;
 // }
 
-.owl-carousel {
+#clients .owl-carousel {
   img {
     width: auto;
     height: auto;
@@ -116,8 +116,42 @@
   }
 }
 
+section#services img {
+  width: 250px;
+}
+
+.testimonial-item {
+  h3::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: $accent-color;
+    bottom: 176px;
+    left: calc(50% - 20px);
+  }
+
+  h3::before {
+    content: '';
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 150px;
+    left: calc(50% - 60px);
+  }
+
+  margin-bottom: 60px;
+}
+
 footer {
   .logo-image {
     width: 90%;
   }
+}
+
+.font-size-lg {
+  font-size: 1.2rem;
 }

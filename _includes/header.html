@@ -12,13 +12,13 @@
         {% if page.layout == "default_main" %}
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">Projekt</a></li>
+          <li><a href="#portfolio">Do pobrania</a></li>
           <li><a href="#services">Korzyści</a></li>
           <li class="menu-has-children"><a href="{{ "more" | prepend: site.baseurl }}">Więcej</a>
             <ul>
               {% include subpage_links.html %}
             </ul>
           </li>
-          <li><a href="#portfolio">Do pobrania</a></li>
         {% else %}
           <li><a href="{{site.baseurl}}">Główna</a></li>
           {% include subpage_links.html %}

@@ -1,0 +1,21 @@
+<!--==========================
+      Team Section
+    ============================-->
+<section id="testimonials" class="">
+  <div class="container">
+    {% for person in site.data.content.team %}
+      <div class="testimonial-item wow fadeInUp">
+        <img src="{{ person.img | prepend: 'img/people/' | relaive_url }}" class="testimonial-img" alt="">
+        <h3>{{ person.name }}</h3>
+        <!-- <h4>Ceo &amp; Founder</h4> -->
+        <p>
+          <img src="{{'img/quote-sign-left.png' | relative_url }}" class="quote-sign-left" alt="">
+          {{ person.content }}
+          <img src="{{'img/quote-sign-right.png' | relative_url }}" class="quote-sign-right" alt="">
+        </p>
+      </div>
+      {% endfor %}
+
+
+  </div>
+</section><!-- #testimonials / team -->

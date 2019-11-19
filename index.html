@@ -10,18 +10,17 @@ layout: default_main
     <div class="row">
       <div class="col-lg-4 box">
         <i class="ion-search"></i>
-        <p class="description">Przeprowadzanie wraz z naszymi ekspertami diagnozy organizacji w obszarze zarządzania międzypokoleniowego.</p>
+        <p class="description">{{ site.data.content.index.about.search }}</p>
       </div>
 
       <div class="col-lg-4 box box-bg">
-        <i class="ion-android-locate"></i>
-        <ion-icon name="locate"></ion-icon>
-        <p class="description">Wskazanie kluczowych wyzwań oraz słabych i mocnych punktów organizacji.</p>
+        <i class="ion-help-buoy"></i>
+        <p class="description">{{ site.data.content.index.about.buoy }}</p>
       </div>
 
       <div class="col-lg-4 box">
         <i class="ion-umbrella"></i>
-        <p class="description">Przygotowanie firmy do wyzwań demograficznych i wprowadzenie elementów świadomego zarządzania międzypokoleniowego.</p>
+        <p class="description">{{ site.data.content.index.about.umbrella }}</p>
       </div>
     </div>
   </div>
@@ -35,18 +34,16 @@ layout: default_main
 
     <header class="section-header">
       <h3>PROGRAM ROZWOJOWY DLA MŚP</h3>
-      <p class="text-justify">
-        Firmy sektora MŚP nie są gotowe na nadchodzące
-        zmiany na rynku pracy wynikające z demografii i zmiany
-        pokoleniowej. Przygotuj swoją firmę do tych zmian dołączając
-        do naszego Programu. Program PUAP 50+ dotyka wyzwań
-        międzypokoleniowych zespołów, transferu wiedzy, aktywności
-        pracowników 50+ i wspierania i rozwoju pracowników
-        wchodzących na rynek pracy. Dzięki Programowi, rozwiązania
-        dostępne i wykorzystywane przez duże międzynarodowe
-        korporacje są w zasięgu firm z sektora MŚP.
-      </p>
+      {% for content in site.data.content.index.program_main.content %}
+        <p class="text-justify pb-0">
+          {{ content }}
+        </p>
+        {% endfor %}
     </header>
+
+    <p class="font-weight-bold font-size-lg">
+      {{ site.data.content.index.program_main.bold_question }}
+    </p>
 
     <div class="row about-cols">
 
@@ -56,12 +53,10 @@ layout: default_main
             <img src="img/about-mission.jpg" alt="" class="img-fluid">
             <div class="icon"><i class="ion-ios-eye-outline"></i></div>
           </div>
-          <h2 class="title"><a href="#">ETAP PIERWSZY</a></h2>
-          <p class="text-center">(wrzesień 2017 - styczeń 2018)</p>
+          <h2 class="title">{{ site.data.content.index.about_cols.left.title }}</h2>
           <p class="text-justify">
-            <b>Zapewnij sobie rozwiązania, które będą pasować do Twojej firmy. Czyli konsultacje proponowanych przez nas rozwiązań.</b>
-            Przygotowaliśmy dla Twojej firmy zestaw rozwiązań. Chcielibyśmy aby były one dostosowane do potrzeb Twojej firmy,
-            dlatego, zanim przystąpimy do pracy, poprosimy Cię o skonsultowanie tych rozwiązań z naszym ekspertem.
+            <b>{{ site.data.content.index.about_cols.left.bold }}</b>
+            {{ site.data.content.index.about_cols.left.normal }}
           </p>
         </div>
       </div>
@@ -72,13 +67,10 @@ layout: default_main
             <img src="img/5.jpg" alt="" class="img-fluid">
             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
           </div>
-          <h2 class="title"><a href="#">ETAP DRUGI</a></h2>
-          <p class="text-center">(luty 2018 - grudzień 2018)</p>
+          <h2 class="title">{{ site.data.content.index.about_cols.middle.title }}</h2>
           <p class="text-justify">
-            <b>Weź udział w darmowym szkoleniu i przeprowadź z nami diagnozę swojej organizacji.</b>
-
-            W pierwszym półroczu 2018 r. dzięki cyklowi szkoleń (6 dni szkoleniowych), uczestnicy Programu podniosą swoje
-            kompetencje i wiedzę o tym jak pracować z międzypokoleniowym zespołami, w tym z pracownikami 50+.
+            <b>{{ site.data.content.index.about_cols.middle.bold }}</b>
+            {{ site.data.content.index.about_cols.middle.normal }}
           </p>
         </div>
       </div>
@@ -89,14 +81,10 @@ layout: default_main
             <img src="img/about-plan.jpg" alt="" class="img-fluid">
             <div class="icon"><i class="ion-ios-list-outline"></i></div>
           </div>
-          <h2 class="title"><a href="#">ETAP TRZECI</a></h2>
-          <p class="text-center">(styczeń 2019 - marzec 2019)</p>
+          <h2 class="title">{{ site.data.content.index.about_cols.right.title }}</h2>
           <p class="text-justify">
-            <b>Podziel się z nami informacją zwrotną.</b>
-            Na tym etapie uczestnicy Programu dzielą się z nami swoimi wnioskami. Uczestnictwo w programie jest ograniczone do
-            rozmowy z ekspertem oraz jednego wspólnego spotkania.
-            Na koniec Programu przedstawiciele firm - właściciele lub zarząd podpisują oświadczenie o wdrożeniu Programu w ich
-            organizacji.
+            <b>{{ site.data.content.index.about_cols.right.bold }}</b>
+            {{ site.data.content.index.about_cols.right.normal }}
           </p>
         </div>
       </div>
@@ -111,67 +99,11 @@ layout: default_main
 ============================-->
 <section id="call-to-action" class="wow fadeIn">
   <div class="container text-center">
-    <h3>Szczegóły programu</h3>
-    <p> Więcej o projekcie dowiesz się w zakładce Szczegóły programu.</p>
-    <a class="cta-btn" href="{{ "more" | prepend: site.baseurl }}">Otwórz</a>
+    <h3>{{ site.data.content.index.call_to_action.title }}</h3>
+    <p>{{ site.data.content.index.call_to_action.content }}</p>
+    <a class="cta-btn" href="{{ "more" | prepend: site.baseurl }}">{{ site.data.content.index.call_to_action.action }}</a>
   </div>
 </section><!-- #call-to-action -->
-
-<!--==========================
-  Services Section
-============================-->
-<section id="services">
-  <div class="container">
-
-    <header class="section-header wow fadeInUp">
-      <h3>Korzyści udziału w Programie</h3>
-    </header>
-
-    <div class="row">
-      <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-users"></i></div>
-        <p class="description">Przygotujesz swoją firmę do wyzwań demograficznych i wprowadzisz elementy świadomego zarządzania międzypokoleniowego.</p>
-      </div>
-      <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-search"></i></div>
-        <p class="description">Przeprowadzisz wraz z naszymi ekspertami diagnozę organizacji, dzięki której wskażemy kluczowe wyzwania, słabe i mocne
-        punkty w obszarze zarządzania międzypokoleniowego.</p>
-      </div>
-    </div>
-
-    <header class="section-header wow fadeInUp">
-      <p class="h5">Organizacja, która weźmie udział w programie otrzyma:</p>
-    </header>
-
-
-    <div class="row">
-
-      <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-briefcase"></i></div>
-        <p class="description">Zestaw narzędzi do pracy z zespołami międzypokoleniowymi.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-book"></i></div>
-        <p class="description">Bezpłatne wsparcie szkoleniowe (6 dni szkoleniowych) dla pracownika współpracującego z zespołami
-        międzypokoleniowym, w tym z pracownikami 50+.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-film"></i></div>
-        <p class="description">Dostęp do 16 krótkich filmów edukacyjnych.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-clock-o"></i></div>
-        <p class="description">48h doradztwa eksperta na etapie opracowania i realizacji indywidualnego projektu wdrożeniowego w organizacji.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-        <div class="icon"><i class="fa fa-file"></i></div>
-        <p class="description">Raport końcowy dotyczący danego wdrożenia.</p>
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- #services -->
 
 <!--==========================
   Portfolio Section
@@ -180,7 +112,7 @@ layout: default_main
   <div class="container">
 
     <header class="section-header">
-      <h3 class="section-title">Skorzystaj z elementów projektu</h3>
+      <h3 class="section-title">{{ site.data.content.index.portfolio.title }}</h3>
     </header>
 
     <!-- <div class="row">
@@ -365,6 +297,27 @@ layout: default_main
 
   </div>
 </section><!-- #portfolio -->
+
+<!--==========================
+  Services Section
+============================-->
+<section id="services">
+  <div class="container">
+
+    <header class="section-header wow fadeInUp">
+      <h3>Korzyści udziału w Programie</h3>
+    </header>
+
+    <div class="row">
+      {% for content in site.data.content.index.services.content %}
+        <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="icon"><i class="fa {{ content.icon }}"></i></div>
+          <p class="description">{{ content.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section><!-- #services -->
 
 <!--==========================
   Clients Section

@@ -6,23 +6,23 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Przydatne linki</h4>
+          <h4>{{ site.data.content.footer.useful_links.title }}</h4>
           <ul>
             <li><i class="ion-ios-arrow-right"></i> <a href="{{ site.base_url }}">Główna</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="#">O nas</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="#">Warunku korzystania z serwisu (?)</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="#">Polityka prywatności (?)</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="{{ '/team' | relative_url}}">O nas</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="http://www.diversityhub.pl" target="_blank">Diversity Hub</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="{{ '/privacy' | relative_url}}">Polityka prywatności</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>Dane kontatktowe</h4>
+          <h4>{{ site.data.content.footer.contact.title }}</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            {% for line in site.data.content.footer.contact.address %}
+              {{ line }}<br>
+            {% endfor %}
+            <strong>Tel:</strong> {{ site.data.content.footer.contact.phone }}<br>
+            <strong>Email:</strong> {{ site.data.content.footer.contact.email }}<br>
           </p>
         </div>
 
