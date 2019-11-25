@@ -72,7 +72,7 @@
           list-style-type: none;
           margin-top: 10px;
           margin-bottom: 5px;
-          text-indent: 2em;
+          // text-indent: 2em;
 
           &> h1, h2, h3, h4, h5, h6 {
             margin-top: 1em;
@@ -149,6 +149,13 @@ section#services img {
   }
 
   margin-bottom: 60px;
+}
+
+.portfolio-container {
+  .portfolio-info {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 }
 
 footer {

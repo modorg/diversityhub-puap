@@ -45,6 +45,19 @@ index:
 
   portfolio:
     title: "Skorzystaj z narzędzi PUAP:"
+    items:
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Diagnoza organizacji', type: PDF,
+      cotent: 'Zaloguj się i przeprowadź audyt zarządzania wiekiem'}
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Narzędzia dla zarządzających', type: PDF,
+      cotent: 'Pobierz materiały wspierające osoby pracujące z zespołami międzygeneracyjnymi'}
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Podręcznik dla pracowników', type: PDF,
+      cotent: 'Pobierz przewodnik dla dojrzałych pracowników'}
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Programy szkoleń', type: PDF,
+      cotent: 'Pobierz gotowe programy szkoleń '}
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Filmy edukacyjne', type: PDF,
+      cotent: 'Obejrzyj serię filmów dla pracownika i pracodawcy'}
+      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'https://vimeo.com/369549656/674308e644', title: 'Film promocyjny', type: film,
+      cotent: 'Obejrzyj video promujące zatrudnianie osób dojrzałych'}
 
   services:
     content:
@@ -83,7 +96,7 @@ team:
   Społecznych w Przedsiębiorstwach, stopień doktora uzyskała na Wydziale Zarządzania i Komunikacji Społecznej UJ. Członkini zarządu Fundacji Rozwoju Badań Społecznych. 
   Na co dzień pracuje w Wyższej Szkole Europejskiej im. ks. Józefa Tischnera w Krakowie, gdzie obecnie jako dziekan zarządza Kolegium Nauk Społecznych i Humanistycznych." }
   - { name: Dr Anna Zaroda Dąbrowska, img: anna-zaroda-dabrowska.jpg, content: "Doświadczony, kreatywny menedżer, finalistka konkursu Businesswoman Roku 2013 (Sukces Pisany Szminką). 
-  Specjalizuje się w tematyce Diversity & Inclusio. <br> Autorka i ekspertka międzynarodowego projektu Tuned up! Tools Under the Need of Enhancing Diversity. 
+  Specjalizuje się w tematyce Diversity & Inclusion. <br> Autorka i ekspertka międzynarodowego projektu Tuned up! Tools Under the Need of Enhancing Diversity. 
   Ekspertka w projektach innowacyjnych dotyczących zarządzania międzygeneracyjnego oraz leadershipu kobiet (Delphi, 2017). Prowadzi sesje D&I dla menedżerów 
   (m. in dla BBH, State Street, Orlen, VW, PGE)."}
 

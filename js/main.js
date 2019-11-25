@@ -202,5 +202,7 @@
     items: 1
   });
 
+  $('.markdown-content a').attr('target', '_blank');
+
 })(jQuery);
 

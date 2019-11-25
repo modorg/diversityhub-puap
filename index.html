@@ -50,7 +50,7 @@ layout: default_main
       <div class="col-md-4 wow fadeInUp">
         <div class="about-col">
           <div class="img">
-            <img src="img/about-mission.jpg" alt="" class="img-fluid">
+            <img src="img/5.jpg" alt="" class="img-fluid">
             <div class="icon"><i class="ion-ios-eye-outline"></i></div>
           </div>
           <h2 class="title">{{ site.data.content.index.about_cols.left.title }}</h2>
@@ -64,7 +64,7 @@ layout: default_main
       <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
         <div class="about-col">
           <div class="img">
-            <img src="img/5.jpg" alt="" class="img-fluid">
+            <img src="img/image7.jpeg" alt="" class="img-fluid">
             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
           </div>
           <h2 class="title">{{ site.data.content.index.about_cols.middle.title }}</h2>
@@ -128,21 +128,25 @@ layout: default_main
 
     <div class="row portfolio-container">
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-        <div class="portfolio-wrap">
-          <figure>
-            <img src="assets/img/wiecej_o_proj_screen.png" class="img-fluid" alt="">
-            <a href="assets/img/wiecej_o_proj_screen.png" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-            <a href="assets/PUAP_Wiecej_o_projekcie.pdf" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-          </figure>
+      {% for item in site.data.content.index.portfolio.items %}
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="{{ item.file }}">
+                <img src="{{ item.img }}" class="img-fluid" alt="">
+              </a>
+              <a href=" {{ item.img }}" class="link-preview"><i class="ion ion-eye"></i></a>
+              <a href="{{ item.file }}" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
 
-          <div class="portfolio-info">
-            <h4><a href="assets/PUAP_Wiecej_o_projekcie.pdf" target="_blank">Wiecej o projekcie</a></h4>
-            <p>PDF</p>
+            <div class="portfolio-info">
+              <h4><a href="{{ item.file }}" target="_blank">{{ item.title }}</a></h4>
+              <p>{{ item.type }}</p>
+            </div>
           </div>
         </div>
-      </div>
-
+      {% endfor %}
+<!-- 
       <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
         <div class="portfolio-wrap">
           <figure>
@@ -171,7 +175,7 @@ layout: default_main
             <p>PDF</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
         <div class="portfolio-wrap">

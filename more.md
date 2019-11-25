@@ -39,7 +39,7 @@ Program jest najbardziej przydatny dla firm, które:
 
 - Są *MŚP*: mikro, małymi lub średnimi firmami,
 - zatrudniają osoby *50+*,
-- są zainteresowana innowacyjnymi rozwiązaniami z obszaru *zarządzania wiekiem i zespołami międzypokoleniowym*.
+- są zainteresowani innowacyjnymi rozwiązaniami z obszaru *zarządzania wiekiem i zespołami międzypokoleniowym*.
 - Chcą rozwijać swoich pracowników w tym obszarze zarządzania wiekiem.
 - Chcą wspierać i motywować swoich doświadczonych pracowników *do aktywności i rozwoju zawodowego*.
 
@@ -50,11 +50,11 @@ Program został zrealizowany w ramach międzynarodowego projektu innowacyjnego, 
 Program jest wspólnym przedsięwzięciem kilku organizacji – liderów w branży edukacji, szkoleń, studiów podyplomowych dla biznesu, konsultingu w obszarze rozwoju i zarządzania. [Poznaj nas.]({{'/team' | relative_url}})
 
 #### Cele projektu
-- Wdrożenie nowych rozwiązań, w szczególności z zakresu *aktywizacji zawodowej*, kształcenia przez całe życie i tworzenia oraz realizacji polityk publicznych, dzięki współpracy z partnerami zagranicznymi;
+- Wdrożenie nowych rozwiązań, w szczególności z zakresu *aktywizacji zawodowej*, kształcenia przez całe życie i tworzenia oraz realizacji polityk publicznych, dzięki współpracy z partnerami zagranicznymi.
 - Wsparcie właścicieli, zarządów i pracowników działów HR sektora MŚP w zakresie wzmacniania aktywności zawodowej pracowników w grupie 50+ przez wypracowanie i pilotażowe wdrożenie w organizacjach objętych projektem opracowanego, przy udziale partnera zagranicznego, kompleksowego Programu PUAP 50+.
 - Projekt przyczyni się do wdrożenia w sektorze MŚP kompleksowych rozwiązań z zakresu zarządzania wiekiem i metodyki pracy rozwojowej z osobami 50+, które są dostosowane do sektora MŚP i uwzględniają jego specyfikę i środowisko.
 - Zastosowanie i wdrożenie narzędzi wypracowanych w projekcie pozwoli na diagnozę sytuacji firm w zakresie zarządzania wiekiem, projekcję modelu symulacyjnego „rozwoju demograficznego” ich pracowników, co będzie *punktem wyjścia do opracowania strategii działań, analizy przyszłych kosztów oraz zobowiązań związanych ze starzejącym się społeczeństwem*.
-- Uczestnicy podniosą kompetencje i wiedzę o tym jak pracować z osobami 50+ i wspierać ich w aktywności zawodowej. Zdobędą też praktyczną wiedzę, jak je stosować, także po zakończeniu projektu Zdobędą również wiedzę na temat odmiennych potrzeb pracujących kobiet i mężczyzn w wieku 50+ w odniesieniu do problematyki zdrowia oraz ergonomii pracy, zachorowań i umieralności w tej grupie wiekowej oraz barier utrudniających kobietom i mężczyznom utrzymanie aktywności zawodowej po 50 roku życia.
+- Uczestnicy podniosą kompetencje i wiedzę o tym jak pracować z osobami 50+ i wspierać ich w aktywności zawodowej. Zdobędą też praktyczną wiedzę, jak je stosować, także po zakończeniu projektu. Zdobędą również wiedzę na temat odmiennych potrzeb pracujących kobiet i mężczyzn w wieku 50+ w odniesieniu do problematyki zdrowia oraz ergonomii pracy, zachorowań i umieralności w tej grupie wiekowej oraz barier utrudniających kobietom i mężczyznom utrzymanie aktywności zawodowej po 50 roku życia.
 
 
 ## Partnerzy projektu
@@ -70,7 +70,7 @@ Program jest wspólnym przedsięwzięciem kilku organizacji – liderów w bran�
 ##### **Wyższa Szkoła Europejska im. Ks. Józefa Tischnera w Krakowie**
 *Partner Projektu*
 
-![](img/logoWSE1small.jpg)
+![](assets/img/logo_wse.jpg)
 
 [www.wse.krakow.pl](http://www.wse.krakow.pl/pl/)
 
