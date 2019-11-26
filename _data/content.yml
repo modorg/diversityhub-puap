@@ -35,7 +35,7 @@ index:
     right:
       title: TESTOWANIE
       bold: "Wszystkie elementy Programu zostały przetestowane przez 12 firm: mikro, małych i średnich."
-      normal: "Przez ponad rok nasi Klienci we współpracy z ekspertkami i projektu przeprowadzili diagnozę swoich firm i
+      normal: "Przez ponad rok nasi Klienci we współpracy z ekspertkami i ekspertami projektu przeprowadzili diagnozę swoich firm i
               realizowali własne projekty wdrożeniowe z obszaru zarządzania pokoleniami testując wszystkie narzędzia Programu."
 
   call_to_action:
@@ -105,7 +105,7 @@ footer:
   contact:
     title: Dane kontaktowe
     address:
-      - Orane Hill Sp. z o.o.
+      - Orange Hill Sp. z o.o.
       - Poznańska 6/4
       - 30-012 Kraków
     phone: (12) 353 05 59
