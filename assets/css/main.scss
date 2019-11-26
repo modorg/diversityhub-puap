@@ -152,9 +152,13 @@ section#services img {
 }
 
 .portfolio-container {
-  .portfolio-info {
+  .portfolio-info h4 {
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+
+  .span {
+    display: block;
   }
 }
 
@@ -166,4 +170,10 @@ footer {
 
 .font-size-lg {
   font-size: 1.2rem;
+}
+
+// temporary
+.link-details {
+  position: relative;
+  left: 45% !important;
 }

@@ -132,16 +132,17 @@ layout: default_main
         <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
           <div class="portfolio-wrap">
             <figure>
-              <a href="{{ item.file }}">
+              <a href="{{ item.file }}" target="_blank">
                 <img src="{{ item.img }}" class="img-fluid" alt="">
               </a>
-              <a href=" {{ item.img }}" class="link-preview"><i class="ion ion-eye"></i></a>
+              {% comment %} <a href=" {{ item.img }}" class="link-preview"><i class="ion ion-eye"></i></a> {% endcomment %}
               <a href="{{ item.file }}" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
 
             <div class="portfolio-info">
               <h4><a href="{{ item.file }}" target="_blank">{{ item.title }}</a></h4>
               <p>{{ item.type }}</p>
+              {% comment %} <span>{{ item.content }}</span> {% endcomment %}
             </div>
           </div>
         </div>
