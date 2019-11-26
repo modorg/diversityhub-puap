@@ -15,7 +15,7 @@ Program rozpoczął się w grudniu 2017r. i jego główna część trwała do ko
 1. **ETAP PIERWSZY:** Opracowanie rozwiązań adekwatnych do potrzeb firmy - konsultacje proponowanych przez nas rozwiązań.
 - #### Konsultowaliśmy:
   - *narzędzie online do audytu* obszaru zarządzania wiekiem,
-  - zestaw wzorów pism, gotowych rozwiązań - tzw. *narzędziownik*,
+  - zestaw wzorów pism, gotowych rozwiązań - tzw. *[narzędziownik](/assets/PUAP_Narzedziownik_2019_final.pdf)*,
   - *program szkoleń* i związaną z nim analizę potrzeb szkoleniowych,
   - *przewodnik rozwojowy* dla pracowników 50+, wspierający ich dalszy rozwój zawodowy.
 
