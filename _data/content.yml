@@ -46,15 +46,15 @@ index:
   portfolio:
     title: "Skorzystaj z narzędzi PUAP:"
     items:
-      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Diagnoza organizacji', type: PDF,
+      - {img: 'assets/img/diagnosis_panel.jpg', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Diagnoza organizacji', type: PDF,
       content: 'Zaloguj się i przeprowadź audyt zarządzania wiekiem'}
       - {img: 'assets/img/narzedziownik_screen.png', file: 'assets/PUAP_Narzedziownik_2019_final.pdf', title: 'Narzędzia dla zarządzających', type: PDF,
       content: 'Pobierz materiały wspierające osoby pracujące z zespołami międzygeneracyjnymi'}
       - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Podręcznik dla pracowników', type: PDF,
       content: 'Pobierz przewodnik dla dojrzałych pracowników'}
-      - {img: 'assets/img/wiecej_o_proj_screen.png', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Programy szkoleń', type: PDF,
+      - {img: 'assets/img/programy_szkolen_panel.jpg', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Programy szkoleń', type: PDF,
       content: 'Pobierz gotowe programy szkoleń '}
-      - {img: 'assets/img/filmy_screen.png', file: 'assets/PUAP_protokół odbioru_filmy.pdf', title: 'Filmy edukacyjne', type: PDF,
+      - {img: 'assets/img/filmy_panel.jpg', file: 'assets/PUAP_protokół odbioru_filmy.pdf', title: 'Filmy edukacyjne', type: PDF,
       content: 'Obejrzyj serię filmów dla pracownika i pracodawcy'}
       - {img: 'assets/img/wse_end_screen.png', file: 'https://vimeo.com/369549656/674308e644', title: 'Film promocyjny', type: film,
       content: 'Obejrzyj video promujące zatrudnianie osób dojrzałych'}

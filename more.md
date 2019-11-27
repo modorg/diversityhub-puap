@@ -37,9 +37,9 @@ Program rozpoczął się w grudniu 2017r. i jego główna część trwała do ko
 ## Dla kogo jest Program PUAP?
 Program jest najbardziej przydatny dla firm, które:
 
-- Są *MŚP*: mikro, małymi lub średnimi firmami,
-- zatrudniają osoby *50+*,
-- są zainteresowani innowacyjnymi rozwiązaniami z obszaru *zarządzania wiekiem i zespołami międzypokoleniowym*.
+- Są *MŚP*: mikro, małymi lub średnimi firmami.
+- Zatrudniają osoby *50+*.
+- Są zainteresowani innowacyjnymi rozwiązaniami z obszaru *zarządzania wiekiem i zespołami międzypokoleniowym*.
 - Chcą rozwijać swoich pracowników w tym obszarze zarządzania wiekiem.
 - Chcą wspierać i motywować swoich doświadczonych pracowników *do aktywności i rozwoju zawodowego*.
 
