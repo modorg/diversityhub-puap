@@ -125,6 +125,23 @@ section#services img {
   width: 250px;
 }
 
+#portfolio .portfolio-item {
+  .portfolio-info {
+    padding: 20px;
+    height: 100px;
+
+    span {
+      display: inline-block;
+      font-size: 0.7em;
+    }
+  }
+
+  figure {
+    height: auto;
+    max-height: 240px;
+  }
+}
+
 .testimonial-item {
   h3::after {
     content: '';
