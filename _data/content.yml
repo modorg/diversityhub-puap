@@ -46,7 +46,7 @@ index:
   portfolio:
     title: "Skorzystaj z narzędzi PUAP:"
     items:
-      - {img: 'assets/img/diagnosis_panel.jpg', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Diagnoza organizacji', type: PDF,
+      - {img: 'assets/img/diagnosis_panel.jpg', file: 'http://www.wiek-audyt.pl', title: 'Diagnoza organizacji', type: WEB,
       content: 'Zaloguj się i przeprowadź audyt zarządzania wiekiem'}
       - {img: 'assets/img/narzedziownik_screen.png', file: 'assets/PUAP_Narzedziownik_2019_final.pdf', title: 'Narzędzia dla zarządzających', type: PDF,
       content: 'Pobierz materiały wspierające osoby pracujące z zespołami międzygeneracyjnymi'}
