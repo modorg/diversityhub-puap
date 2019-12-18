@@ -52,9 +52,9 @@ index:
       content: 'Pobierz materiały wspierające osoby pracujące z zespołami międzygeneracyjnymi'}
       - {img: 'assets/img/podrecznik_screen.png', file: 'assets/PUAP_Przewodnik_Rozwoj_zawodowy_2018_v2.pdf', title: 'Podręcznik dla pracowników', type: PDF,
       content: 'Pobierz przewodnik dla dojrzałych pracowników'}
-      - {img: 'assets/img/programy_szkolen_panel.jpg', file: 'assets/PUAP_Wiecej_o_projekcie.pdf', title: 'Programy szkoleń', type: PDF,
+      - {img: 'assets/img/programy_szkolen_panel.jpg', file: 'assets/PUAP_Sylabusy Programu Szkoleń_Szkolenia 1-6.pdf', title: 'Programy szkoleń', type: PDF,
       content: 'Pobierz gotowe programy szkoleń '}
-      - {img: 'assets/img/filmy_panel.jpg', file: 'assets/PUAP_protokół odbioru_filmy.pdf', title: 'Filmy edukacyjne', type: PDF,
+      - {img: 'assets/img/filmy_panel.jpg', file: 'assets/PUAP_filmy edukacyjne.pdf', title: 'Filmy edukacyjne', type: PDF,
       content: 'Obejrzyj serię filmów dla pracownika i pracodawcy'}
       - {img: 'assets/img/wse_end_screen.png', file: 'https://vimeo.com/369549656/674308e644', title: 'Film promocyjny', type: film,
       content: 'Obejrzyj video promujące zatrudnianie osób dojrzałych'}
